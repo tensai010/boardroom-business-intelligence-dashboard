@@ -74,85 +74,92 @@ Margin analysis across product hierarchy
 
 Identification of:
 
-Top profit drivers
-Low-margin products
-Discount impact on profitability
+- Top profit drivers
+- Low-margin products
+- Discount impact on profitability
 
 <img width="1306" height="698" alt="image" src="https://github.com/user-attachments/assets/b31e2b54-d6f8-4a41-8793-f15439ec78cf" />
 
 --------------------------------------------------------------------------------------------------------------
 
 4. Customer & Channel Insights
-Revenue and profit by channel (Online, Retail, Enterprise, Partner)
-Customer segmentation (New vs Returning vs VIP)
-AOV and margin comparison across channels
+- Revenue and profit by channel (Online, Retail, Enterprise, Partner)
+- Customer segmentation (New vs Returning vs VIP)
+- AOV and margin comparison across channels
 
 <img width="1283" height="725" alt="image" src="https://github.com/user-attachments/assets/9b57867c-1d44-4fb2-9f44-b349dd2b806f" />
 
 ----------------------------------------------------------------------------------------------------------------
 
 5. Promotion Effectiveness
-Promo vs Non-Promo performance comparison
-Promotion type profitability (B2B, Campaign, Seasonal, etc.)
-Campaign-level profit analysis
-Discount vs profit efficiency insights
+- Promo vs Non-Promo performance comparison
+- Promotion type profitability (B2B, Campaign, Seasonal, etc.)
+- Campaign-level profit analysis
+- Discount vs profit efficiency insights
 
 <img width="1281" height="700" alt="image" src="https://github.com/user-attachments/assets/c215b372-b568-477a-a9b1-62d178646ab1" />
 
 ---------------------------------------------------------------------------------------------------------------
 
- Key Insights
-Revenue is strong, but profitability varies significantly across categories
-Promotions generate similar revenue but lower profit → inefficiency
-Returns are a major contributor to profit erosion
-Certain products drive revenue but have low margins
-Discount-heavy categories show reduced profit efficiency
-👉 Insight: Growth without margin control is risky.
----------------------------------------------------------------------------------------------------------------
-🚀 Business Impact
-This dashboard enables leadership to:
+## 💡 Key Insights
 
-Identify profit leakage drivers (discounts, returns, freight)
-Evaluate promotion effectiveness vs actual profitability
-Pinpoint high-risk categories and regions
-Optimize product mix and pricing strategies
-Shift focus from revenue to sustainable profitability
-📊 Outcome:
+- Revenue is strong across the board, but **profitability varies sharply by category** — top-line health hides bottom-line risk.
+- Promotions generate revenue comparable to non-promotional sales but at materially lower profit — a sign of **promotional inefficiency**.
+- **Returns are a primary driver of profit erosion**, concentrated in specific categories.
+- Several products are revenue contributors but **low-margin**, masking weak unit economics.
+- Discount-heavy categories consistently show **reduced profit efficiency**.
 
-Better strategic decisions
-Improved margin control
-Data-driven executive insights
----------------------------------------------------------------------------------------------------------------
-🛠️ Technical Foundation
-Data modeling for business logic alignment
-Advanced DAX for KPI calculations (YoY, MoM, margins)
-Interactive filtering for dynamic analysis
-Structured dashboard design for executive consumption
----------------------------------------------------------------------------------------------------------------
-📁 Data
-Synthetic dataset created for demonstration purposes
-Mimics real-world commerce data:
-Sales
-Profit
-Discounts
-Promotions
-Returns
+> **The underlying takeaway: growth without margin discipline is a profit problem disguised as a sales win.**
 
-▶️ How to Use
-Use filters (Year, Month, Category) to explore trends
-Navigate across pages for different business views
-Hover over visuals for deeper insights
+---
 
-📌 Key Features
-Executive-level dashboard design
-Custom profit flow visualization
-Advanced DAX calculations (YoY, MoM, margin logic)
-Clean and structured UI for decision-makers
-Fully interactive filtering (Year, Month, Category)
+## 🚀 Business Impact
 
-⚠️ Disclaimer
-This dashboard uses synthetic data created for demonstration purposes
+The dashboard equips leadership to:
 
+- Identify **profit leakage drivers** across discounts, returns, and freight
+- Evaluate **promotion effectiveness** against actual profit contribution, not just revenue
+- Pinpoint **high-risk categories and regions** before they compound
+- Inform **product mix and pricing decisions** with margin-grounded evidence
+- Shift the operating focus from top-line growth to **sustainable profitability**
+
+**Outcomes the report supports:** sharper strategic decisions, tighter margin control, and an executive view grounded in data rather than intuition.
+
+---
+
+## 🛠️ Technical Foundation
+
+- **Data modeling** aligned to business logic — star schema, single-direction relationships, marked date table
+- **DAX measures** for KPI calculations including YoY and MoM time intelligence, staged profit flow, and margin ratios
+- **Interactive filtering** with cross-page synced slicers for fluid scenario reading
+- **Executive-grade layout** designed for boardroom consumption — clean hierarchy, conditional formatting, drillthrough
+
+---
+
+## 📁 Data
+
+Synthetic dataset created for demonstration. The data is modeled to mirror real-world commerce dynamics across:
+
+- Sales and order activity
+- Profit and cost components
+- Discounts and promotional behavior
+- Returns and return reasons
+- Channel and customer segmentation
+
+---
+
+## ▶️ How to Use
+
+- Use the **Year, Month, and Category** slicers to explore trends — they're synced across all pages
+- Navigate the six pages using the **left-side navigation rail**
+- **Hover over visuals** for additional detail in tooltips
+- **Right-click** on products or categories to drill through where enabled
+
+---
+
+## ⚠️ Disclaimer
+
+This dashboard uses **synthetic data created for demonstration purposes**. The data model, DAX, and design choices reflect production-style analytics work.
 
 
 
